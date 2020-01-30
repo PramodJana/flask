@@ -4,3 +4,29 @@ commands to create an environment
 mkdir Project_name(myproject)
 cd myproject
 py -3 -m venv Virtual_environment_name(venv)
+
+
+Activate the environment
+Virtual_environment_name(venv)\Scripts\Activate
+if it is not working change the access policy rules
+https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts
+
+
+intall the flask 
+pip install flask
+
+
+A minimal Application
+
+from flask import flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+Note:Do not save the file with name "flask.py" and save it with app.py
+
+and then run python -m flask run
+
+
