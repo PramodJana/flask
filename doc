@@ -1,1 +1,6 @@
 this is the doc file for the flask
+
+commands to create an environment
+mkdir Project_name(myproject)
+cd myproject
+py -3 -m venv Virtual_environment_name(venv)
